@@ -119,7 +119,7 @@ function keyPressed(){
 
   if(keyCode === 32){
 
-    Matter.Body.position(stoneObj.body,{x:235,y:420});
+    Matter.Body.setPosition(stoneObj.body,{x:235,y:420});
     launcherObject.attach(stoneObj.body);
 
   }
